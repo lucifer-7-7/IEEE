@@ -10,8 +10,8 @@
     color: #44ff1f;
 }
 *{
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: nb;
 }
@@ -37,7 +37,7 @@ html, body{
 }
 .page1{
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     background-color:#44ff1f;
 }
 .cursor{
@@ -307,18 +307,18 @@ html, body{
     transform: scaleX(1);
     transform-origin: bottom left;
 }
-h1{
+.page1 .inner-content h1{
     font-family: rejo ;
     font-size: 22vw;
     text-align: center;
-    letter-spacing: -1vw;
+    letter-spacing: -.54vw;
     font-weight: 100}
 .inner-content h1 span{
-    font-size: 47vh;
+    /* font-size: 47vh;
     font-weight: 100;
     font-family: nb; 
     padding-top: 20%;
-    text-align: center;
+    text-align: center; */
     display: inline-block;
     
 }
